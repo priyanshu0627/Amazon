@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  background-color: #232f3e;
+}
+
+.navbar__category {
+  box-sizing: border-box;
+  height: 35px;
+
+  margin: 4px 5px;
+  padding: 8px 10px;
+  color: white;
+}
+
+.navbar__category:hover {
+  border: 1px solid white;
+  border-radius: 20%;
+  cursor: pointer;
+  text-decoration: line-through;
+  color: darkgrey;
+}
+
+.navbar__category > p {
+  font-size: xx-small;
+  font-weight: 500;
+}
+
+.all {
+  display: flex;
+  font-weight: 600;
+}
+
+.list {
+  margin: -8px 0;
+}

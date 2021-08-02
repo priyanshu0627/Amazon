@@ -1,0 +1,104 @@
+.login {
+  background-color: white;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.login__logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login__container {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+.login__container > h1 {
+  font-size: large;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.login__container > form > h5 {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.login__container > form > input {
+  margin-bottom: 10px;
+  background-color: white;
+  height: 30px;
+  width: 96%;
+  border: 1px solid rgb(114, 114, 114);
+  border-radius: 3px;
+  padding: 0 5px;
+}
+
+.login__container > form > input:focus {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  outline: none;
+}
+
+.login__signInButton {
+  background-image: linear-gradient(
+    to right,
+    #ffb347 0%,
+    #ffedb5 51%,
+    #f3d484 100%
+  );
+}
+
+.login__signInButton {
+  border: 1px solid;
+  border-radius: 3px;
+  border-color: #a88734 #9c7e31 #846a29;
+  margin-top: 10px;
+  height: 30px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.5s;
+  background-size: 200% auto;
+}
+
+.login__signInButton:hover {
+  background-position: right center; /* change the direction of the change here */
+  text-decoration: none;
+}
+
+.login__container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.register {
+  font-size: 0.6rem;
+  margin-top: 20px;
+  padding: 0 85px;
+  color: rgb(80, 78, 78);
+}
+
+.login__registerButton {
+  margin-top: 10px;
+  height: 30px;
+  width: 340px;
+  border: 1px solid;
+  border-color: darkgray;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.login__registerButton:hover {
+  background-color: #dddddd;
+}
