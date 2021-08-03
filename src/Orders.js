@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import EmptyOrder from './EmptyOrder';
 import { db } from './firebase';
 import Order from './Order';
 import "./Orders.css";
@@ -33,6 +34,7 @@ function Orders() {
                 {orders?.map(order => (
                     <Order order = {order} />
                 ))}
+            {!user && <EmptyOrder />}    
             </div>
         </div>
     )
